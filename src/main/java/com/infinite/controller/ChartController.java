@@ -31,7 +31,7 @@ public class ChartController {
 	{
 		return "index";
 	}
-
+  
 	@RequestMapping("/piechart")
 	public String displayPieChart(Model model) {
 		List<Chart> data = chartdao.findAll();
